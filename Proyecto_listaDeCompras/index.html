@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+        body{ /*To make any changes within the body*/
+            font-family:'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        li{
+            margin: 5px 0;
+            text-decoration: underline;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <h1>Shopping List</h1>
+
+    <br>
+    <div class="container bg-primary">
+        <input type="text" id="newShoppingItem" placeholder="Enter a new item: ">
+        <button onclick="addItemToCart()" class="btn btn-secondary">Add</button>
+        <button onclick="deleteAllItems" class="btn btn-secondary">DELETE ALL</button>      
+    </div>
+    <br>
+
+    <h2>Current Cart</h2>
+    <ul id="currentShoppingList"></ul>  
+
+    <script src="script.js"></script>
+</body>
+</html>
