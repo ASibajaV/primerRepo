@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM práctica sencilla</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="formStyles.css">
+</head>
+<body>
+    
+    <div class="container" id="thingy1">
+        <div class="card">
+            <div class="row" id="thingy2">
+                <div class="col-lg-12"> <!--Ancho de columna de al menos 1200px-->
+                    <div id="userName">
+                        <input type="text" placeholder="Coloca aqui tu usuario">
+                    </div>
+                    <div id="password">
+                        <input type="password" placeholder="Coloca aqui tu contraseña">
+                    </div>                    
+                </div>
+                <div class="col-lg-12">
+                    <p class="invalid" id="msj">Tu contraseña debe ser de almenos 8 caracteres.</p>
+                </div>
+            </div>
+    
+            <div class="row" id="thingy3">
+                <div class="col">
+                    <button type="button" id="registrarse">Login</button>
+                    <button type="button" onclick="destruyeLaPagina()">DESTRUYE!!!!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -34,6 +34,4 @@ function addItemToCart(){
 
 function deleteAllItems(){
 
-    
-    
 }
