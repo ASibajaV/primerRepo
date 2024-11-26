@@ -4,7 +4,7 @@ makeGetRequest = require('./get_users');
 async function makePostRequest() {
 
     params = {
-        id: 2,
+        id: '2',
         first_name: 'Song',
         last_name: 'Gonzalez',
         email: 'sgo@gmail.com'

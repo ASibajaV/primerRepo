@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Contactanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <!-- Header -->
+    <div class="container-fluid d-flex flex-row text-bg-warning ">
+        <nav class="navbar text-bg-warning w-139">
+            <div class="container">
+              <a class="avatar" href="#">
+                <img src="./imagenes/caco.png" alt="Bootstrap" width="150" height="150">
+              </a>
+            </div>
+          </nav>
+          <nav class="navbar btext-bg-warning">
+            <div class="container-fluid">
+              <span class="navbar-brand1 mb-0 fs-2  ">Raíces  México</span>
+            </div>
+          </nav>
+          <div class="container d-flex flex-column align-items-end w-50 h-50 mt-3 row-gap-4">
+            <nav class="navbar align-items-start  me-2  ">
+                <form class="d-flex " role="search">
+                  <input class="form-control me-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success  text-black bg-light boton" type="submit">Search</button>
+                </form>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-warning">
+              <div class="container-fluid">
+                <a class="navbar-brand fs-6"  href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                      <button type="button" class="btn btn-light ms-3 align-items-start  mb-2">Sign In</button>
+                      <button type="button" class="btn btn-dark ms-3 align-items-start mb-2">Log In</button>
+                  </ul>
+                </div> 
+              </div>
+            </nav>
+        </div>
+    </div>
+     <!-- Header -->
+         
+     <div class="login-container">
+      <div class=""></div>
+      <div class="container-fluid vh-100 align-items-center"> <!--Todo el contenido-->
+        <div class="container align-items-center">
+          
+          <!--Empieza fila de imágnes y login-->
+          <div class="row p-4"> 
+            <div class="col border p-4"> <!--Imagen 1-->
+              <a class="login-image">
+                <img src="./imagenes/caco.png" alt="imagen1_login">
+              </a>
+            </div>
+
+            <section class="container col border m-10 p-4"><!--Login-->
+              <form id="boxStylePink" class="card login_cinzel">Ingresa tu usuario y contraseña
+                <br><br>
+                <div class="row">
+                  <input id="inputNombreUsuario" type="text" placeholder="Nombre de usuario" style="max-width: 300px;">
+                </div>
+                <div class="row">
+                  <input id="inputContrasena" type="text" placeholder="Contraseña" style="max-width: 300px;"> <!--Intente "maxlength="4" size="4"" pero no funcionó-->
+                </div>
+                <div id="botonStyle" class="row">
+                  <button id="botonStyle">Olvidé mi contraseña</button>
+                </div>
+              </form>              
+            </section>
+
+            <div class="col border p-4"> <!--Imagen 2-->
+              <a class="login-image">
+                <img src="./imagenes/caco.png" alt="imagen2_login">
+              </a>
+            </div>
+          </div>
+          
+          <br>
+
+          <!--Empieza fila que lleva formulario-->
+
+
+          <div class="row p-4"> 
+            <div class="col-md-5 border p-4"> <!--vacio1-->
+              <div id="boxStylePink" class="card col-md-5">¿Quieres crear comprar artesanías?
+                <div class="row p-4">Puedes crear una cuenta y empezar a comprar todos los excelentes productos que ves a continuación.</div>
+                <div class="row">
+                  <button id="botonStyle">Haz click aquí para registrarte</button>
+                </div>
+              </div>
+            </div>
+
+            <section class="container col-md-2 border m-10 p-4"><!--Login-->
+          
+            </section>
+
+            <div class="col-md-5 border p-4"> <!--vacio2-->
+              <div id="boxStylePink" class="card col-md-5" style="margin-left: 200px;">¿Quieres vender tus productos?
+                <div class="row p-4">Puedes crear una cuenta y empezar a vender todos tus excelentes productos.</div>
+                <div class="row">
+                  <button id="botonStyle">Haz click aquí para registrarte</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--<div class="row align-items-center p-4 border"> Si modifico el "row", me pone una caja sobre otra
+            Registro 1
+            <div id="boxStylePink" class="card col-md-5" style="margin-left: 20px;">¿Quieres crear comprar artesanías?
+              <div class="row p-4">Puedes crear una cuenta y empezar a comprar todos los excelentes productos que ves a continuación.</div>
+              <div class="row">
+                <button id="botonStyle">Haz click aquí para registrarte</button>
+              </div>
+            </div>
+            Registro 2
+            <div id="boxStylePink" class="card col-md-5" style="margin-left: 20px;">¿Quieres vender tus productos?
+              <div class="row p-4">Puedes crear una cuenta y empezar a vender todos tus excelentes productos.</div>
+              <div class="row">
+                <button id="botonStyle">Haz click aquí para registrarte</button>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+      </div>
+     </div>
+
+     <!--Footer-->
+     <footer class="footer">
+      <div class="container">
+          <div class="footer-row" id="pie">
+              <div class="footer-links">
+                  <h4>Sobre Nosotros</h4>
+                  <ul role="navigation">
+                      <li><a href="#">Quiénes somos</a></li>
+                      <li><a href="#">Recursos</a></li>
+                      <li><a href="#">Involúcrate</a></li>
+                      <li><a href="#">Trabaja con nosotros</a></li>
+                  </ul>
+              </div>
+              <div class="footer-links">
+                  <h4>Politíca de privacidad</h4>
+                  <ul>
+                      <li><a href="#">Politíca de privacidad</a></li>
+                      <li><a href="#">Cómo funcionamos</a></li>
+                      <li><a href="#">Declaración de Transparencia</a></li>
+                      <li><a href="#">Asuntos económicos</a></li>
+                  </ul>
+              </div>
+              <div class="footer-links">
+                  <h4>Servicio al cliente</h4>
+                  <ul>
+                      <li><a href="#">Términos y Condiciones</a></li>
+                      <li><a href="#">¿Necesitas ayuda?</a></li>
+                      <li><a href="#">Métodos de pago</a></li>
+                      <li><a href="#">Facturación</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="footer-links">
+                  <h4>Aviso de copyright</h4>
+                  <ul>
+                      <li><a href="#">©2001-2024 Todos los derechos reservados. Raíces.MX® es una marca registrada de E-MX-HANDS.</a></li>
+                  </ul>
+              </div>
+              <div class="footer-links">
+                  <h4>Síguenos</h4>
+                  <div class="social-link">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
