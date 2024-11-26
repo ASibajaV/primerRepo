@@ -122,7 +122,31 @@ public class JavaLoops {
 			            13
 			            ...
 			            ...*/
-			        
+			    
+			            System.out.println("Pon un número para checar hasta dónde llega en la secuencia Fibonacci: ");
+			            int iteraciones = console.nextInt();
+			            
+			            int fiboNumber = 0;
+			            int precedingOne = 0;
+			            int precedingTwo = 0;
+			            int contadorFibo = 0;
+			            
+			            do {
+			            	
+			            	precedingTwo = precedingOne;
+			            	precedingOne = fiboNumber;
+			            	fiboNumber = precedingOne + precedingTwo;
+			            	System.out.println(fiboNumber);
+			            	
+			            	if (contadorFibo == 0) {
+			            		fiboNumber ++;
+			            		System.out.println(fiboNumber);
+			            	}
+			            	
+			            	contadorFibo++;
+			            	
+			            }while(contadorFibo < iteraciones);
+			    
 			    
 			
 		
