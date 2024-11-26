@@ -14,7 +14,7 @@ public class JavaLoops {
 		
 			
 			/*int contador = 0;
-			int oddsAddition = 0;
+			int oddsAddition = 0	;
 			int numberToCheck = 1;
 			
 			while(contador<20) {
@@ -160,6 +160,6 @@ public class JavaLoops {
 			}
 			
 
-	}
+	
 
 }
