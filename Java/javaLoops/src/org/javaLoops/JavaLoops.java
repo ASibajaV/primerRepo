@@ -4,40 +4,34 @@ import java.util.Scanner;
 public class JavaLoops {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	
-	
-
-
-
-		
 			
-			/*int contador = 0;
-			int oddsAddition = 0	;
+			//Ejercicio que nos dejaron.
+			int contadorOdd = 0;
+			int oddsAddition = 0;
 			int numberToCheck = 1;
 			
-			while(contador<20) {
+			while(contadorOdd<20) {
 				
-				if(isOdd(numberToCheck)) {
+				if(isOdd(numberToCheck)) { // en la línea 149 está la función
 					System.out.println("ping: " + numberToCheck);
 					oddsAddition += numberToCheck;
-					contador ++;
+					contadorOdd ++;
 				}
-				
-				numberToCheck ++;
-				
+				numberToCheck ++;				
 			}
 			
-			System.out.println ("La suma de los primeros 10 números impares es: " + oddsAddition);*/
+			System.out.println ("La suma de los primeros 10 números impares es: " + oddsAddition);
 			
 			
 			//CICLO WHILE
-			/*int contador = 1;
+			//Usaremos 'while' en lugar de 'for' para hacer un contador manual.
+			//Los contenidos de 'while' se leen solo si se cumple la condición, y se continuaran leyendo miesntras aun se cumpla.
+			//Con 'do while' es lo mismo, pero su contenido siempre se lee al menos una vez aunque no se cumpla su condición.
+			int contadorWhile = 1;
 			
-			while (contador<=5) {
-				System.out.println("Iteración: " + contador);
-				contador++;
+			while (contadorWhile<=5) {
+				System.out.println("Iteración: " + contadorWhile);
+				contadorWhile++;
 			}
 			
 			System.out.println("--------------");
@@ -55,21 +49,24 @@ public class JavaLoops {
 			
 			//CICLO FOR
 			for(int i=5;i>=1;i--) {
-				System.out.println("Iteración: " + i);*/
-			//}
+				System.out.println("Iteración: " + i);
+			}
 			
 			/*for each de Java:
 			  TipoDeElemento (identificadorElemento) : collection (array, List, set, map)
 			  Es una función pre-construida, por eso solo recive parámetros.*/
 			
-			/*String[] names = {"Xamitl", "Maggy", "Alex"};
+			String[] names = {"Xamitl", "Maggy", "Alex"};
 			String misCompaneros = "";		
 			
 			for (String name : names) {
 				misCompaneros += (name + " ");
 			}
 			
-			System.out.println(misCompaneros);*/
+			System.out.println(misCompaneros);
+			
+			
+			//Siguen unos ejercicios que nos dejó Lili, cuando corras un programa, se te pedirá poner números en consola:
 			
 			/*Part 1: While loops
 			Open your IDE and create a new Java class named Table
@@ -100,28 +97,8 @@ public class JavaLoops {
 			            0 1 1 2 3 5 8 13 21 34 55 89 ...
 			            Add the following import to be able to capture user input n
 			              import java.util.Scanner;
-			            Implement a Do While loop that calculates Fibonacci(n)
+			            Implement a Do While loop that calculates Fibonacci(n)*/
 
-			            n
-			            Fibonacci(n)
-			            0
-			            0
-			            1
-			            1
-			            2
-			            1
-			            3
-			            2
-			            4
-			            3
-			            5
-			            5
-			            6
-			            8
-			            7
-			            13
-			            ...
-			            ...*/
 			    
 			            System.out.println("Pon un número para checar hasta dónde llega en la secuencia Fibonacci: ");
 			            int iteraciones = console.nextInt();
@@ -148,9 +125,7 @@ public class JavaLoops {
 			            }while(contadorFibo < iteraciones);
 			    
 			    
-			
-		
-		
+
 		/*Ejercicio For: Part 3: For loops
 		Use the for loop to create a programm that ask the user to input a name and then prints each of the letters of the name
 		Hint You can use the following String functions:
@@ -165,14 +140,12 @@ public class JavaLoops {
 			for (int i=0;i<nombre.length();i++) {
 				System.out.println(nombre.charAt(i));
 			}
-
-		
 			
+				
+			console.close();
 		}//Main's End
 
 		
-		
-
 			public static boolean isOdd (int numero) {
 				
 				if ((numero % 2) == 0) {
@@ -182,8 +155,4 @@ public class JavaLoops {
 				}
 
 			}
-			
-
-	
-
 }
